@@ -10,7 +10,14 @@ public class GameManager_MainScene : MonoBehaviour
 
     private void Awake()
     {
-        //다음시간에 꺼진 오브젝트 찾는법 설명 할것
+        float targetRatio = 9.0f / 16.0f;//FHD 1920 1080 16:9
+        float ratio = (float)Screen.width / (float)Screen.height;
+        float scaleHeight = ratio / targetRatio;
+        float fixedWidth = (float)Screen.width / scaleHeight;
+        Screen.SetResolution((int)fixedWidth, Screen.height, true); // 화면비율 및 크기 조정하는 코드, 화면이 깜빡이게하는기능도 있음
+
+        //Application.targetFrameRate = 60; // 프레임을 제한해주는 코드
+
         Button[] arrayBtn = GetComponentsInChildren<Button>(true);
         arrayBtn[0].onClick.AddListener(startGame);
         arrayBtn[1].onClick.AddListener(ranking);

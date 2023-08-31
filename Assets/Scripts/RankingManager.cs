@@ -38,7 +38,6 @@ public class RankingManager : MonoBehaviour
                 data.Score = 0;
                 listRank.Add(data);
             }
-
             value = JsonConvert.SerializeObject(listRank);
             PlayerPrefs.SetString(keyRank, value);
         }
@@ -60,7 +59,6 @@ public class RankingManager : MonoBehaviour
                 listRank = JsonConvert.DeserializeObject<List<RankData>>(value);
             }
         }
-
         CloseRank();
     }
 
@@ -82,10 +80,7 @@ public class RankingManager : MonoBehaviour
         {
             GameObject obj = Instantiate(fabRanking, scroll.content);
             Fab_Ranking sc = obj.GetComponent<Fab_Ranking>();
-            sc.SetRanking(
-                (iNum + 1).ToString("D2"), 
-                listRank[iNum].Score.ToString("D8"),
-                listRank[iNum].Name);
+            sc.SetRanking((iNum + 1).ToString("D2"), listRank[iNum].Score.ToString("D8"), listRank[iNum].Name);
         }
     }
 
@@ -97,7 +92,6 @@ public class RankingManager : MonoBehaviour
             Destroy(scroll.content.GetChild(iNum).gameObject);
         }
     }
-
     private void CloseRank()
     {
         objTitle.SetActive(true);

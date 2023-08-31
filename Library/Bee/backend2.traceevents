@@ -1,0 +1,238 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693480367602185, "dur":4407, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693480367606660, "dur":275, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693480367607084, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1693480367607421, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693480367607565, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693480367608010, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693480367608199, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693480367608374, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693480367608586, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles KKK/ShootingGame20H_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693480367606948, "dur":2060, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693480367609009, "dur":190183, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693480367799194, "dur":466, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693480367799792, "dur":635, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693480367607205, "dur":1872, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693480367609079, "dur":2310, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693480367613530, "dur":184, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1693480367613966, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\ShootingGame20H\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693480367614023, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\ShootingGame20H\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693480367614117, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\ShootingGame20H\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693480367614239, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\ShootingGame20H\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693480367614465, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\ShootingGame20H\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693480367613716, "dur":1017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693480367619403, "dur":79939, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693480367700096, "dur":6469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693480367706566, "dur":92639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693480367608671, "dur":587, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693480367609258, "dur":2141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693480367611400, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1693480367613195, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1693480367619485, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367623508, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367624978, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367627694, "dur":8572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367636297, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367638655, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367640067, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693480367641495, "dur":34846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1693480367676361, "dur":122842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693480367607349, "dur":1732, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693480367609086, "dur":258, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693480367609344, "dur":2048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693480367611406, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693480367611395, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693480367613510, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693480367614749, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1693480367619530, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367622172, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367624661, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367627193, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367629813, "dur":7104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367636934, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367639336, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693480367640660, "dur":158483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367607477, "dur":1648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693480367609126, "dur":235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693480367609362, "dur":2080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693480367614020, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693480367618124, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693480367619893, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367622458, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367624431, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367627006, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367629639, "dur":7115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367636768, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367639136, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367640443, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693480367641961, "dur":9481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1693480367651448, "dur":147745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693480367607596, "dur":1533, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693480367609130, "dur":247, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693480367609377, "dur":2013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693480367611399, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693480367611819, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1693480367613162, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693480367613161, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693480367613830, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693480367615010, "dur":4886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1693480367619912, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367622430, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367624429, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367626873, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367629407, "dur":7094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367636529, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367638873, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367640285, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693480367641779, "dur":24706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693480367666493, "dur":132709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693480367607762, "dur":1371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693480367609141, "dur":217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693480367609358, "dur":2047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693480367611408, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1693480367613861, "dur":4834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1693480367618901, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367621347, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367623515, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367624878, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367627519, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367631683, "dur":5544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367637249, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367639707, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693480367641065, "dur":7273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1693480367648352, "dur":28053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1693480367676412, "dur":122795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693480367607892, "dur":1291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693480367609184, "dur":275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693480367609459, "dur":1942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693480367611403, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1693480367613848, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1693480367618945, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367623863, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367625043, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367627593, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367631684, "dur":5555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367637255, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367639621, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693480367641193, "dur":35972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693480367677172, "dur":122036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693480367608016, "dur":1196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693480367609214, "dur":265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693480367609479, "dur":1962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693480367611488, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693480367613834, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1693480367618957, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367621730, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367624515, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367627097, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367629719, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367636841, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367639246, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367640593, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693480367641957, "dur":24325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693480367666289, "dur":132915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693480367608383, "dur":861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693480367609244, "dur":2171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693480367611416, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1693480367614071, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1693480367618619, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H.exe" }}
+,{ "pid":12345, "tid":9, "ts":1693480367619384, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367622473, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367624434, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367626808, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367629280, "dur":7229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367636534, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367638863, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367640157, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693480367641760, "dur":9277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693480367651050, "dur":148145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693480367608129, "dur":1088, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693480367609218, "dur":566, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693480367609785, "dur":1609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693480367611397, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1693480367613262, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1693480367614599, "dur":4230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1693480367618905, "dur":5317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367624236, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367626822, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367629383, "dur":6895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367636298, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367637443, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367639805, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693480367641456, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1693480367642174, "dur":77146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1693480367719327, "dur":79869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693480367608253, "dur":986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693480367609241, "dur":658, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693480367609899, "dur":1517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693480367611450, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1693480367611416, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1693480367613556, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1693480367618171, "dur":6531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693480367624726, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693480367627422, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693480367631563, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693480367637228, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693480367639509, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693480367641453, "dur":9295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1693480367650774, "dur":13599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1693480367664379, "dur":134820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693480367608519, "dur":730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693480367609249, "dur":2191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693480367611451, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693480367611441, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693480367613838, "dur":5079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693480367618971, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367621639, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367623717, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367624992, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367629178, "dur":7329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367636538, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367638749, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367639983, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693480367641729, "dur":35441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693480367677177, "dur":122034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693480367608590, "dur":662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693480367609253, "dur":2138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693480367611634, "dur":9725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1693480367621395, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367623511, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367624687, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367627331, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367631469, "dur":5560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367637045, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367639483, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693480367640737, "dur":22248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1693480367662993, "dur":136220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693480367608777, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693480367609264, "dur":2147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693480367611413, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1693480367613834, "dur":5264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1693480367619112, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367621995, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367623871, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367626858, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367629561, "dur":7105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367636684, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367639054, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367640363, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693480367641892, "dur":9591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1693480367651489, "dur":147689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693480367608881, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693480367609269, "dur":2140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693480367611445, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1693480367611410, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles KKK/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1693480367613720, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1693480367618182, "dur":50985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693480367669178, "dur":130036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693480367608948, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693480367609273, "dur":2166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693480367611486, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693480367613850, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1693480367618821, "dur":18578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1693480367637421, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693480367639896, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693480367641314, "dur":138192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"KKK/ShootingGame20H_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":16, "ts":1693480367779515, "dur":19691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693480367801636, "dur":550, "ph":"X", "name": "ProfilerWriteOutput" }
+,
